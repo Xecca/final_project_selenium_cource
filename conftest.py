@@ -10,7 +10,6 @@ def pytest_addoption(parser):
 def pytest_configure(config):
 	config.addinivalue_line("markers", "lang_test: mark test as choose language")
 
-
 @pytest.fixture(scope="function")
 def browser(request):
 	browser_name = request.config.getoption("browser_name")
