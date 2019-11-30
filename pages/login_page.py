@@ -12,7 +12,7 @@ class LoginPage(BasePage):
         assert self.is_element_present(*LoginPageLocators.LOGIN_URL), "Login URL is not presented"
         login_url = self.browser.find_element(*LoginPageLocators.LOGIN_URL)
         login_url.click()
-        assert "ru/accounts/login/" in self.browser.current_url, "'ru/accounts/login/' not in current url"
+        assert "/accounts/login/" in self.browser.current_url, "'/accounts/login/' not in current url"
         print("\nclicked on link to forms!")
 
     def should_be_login_form(self):
