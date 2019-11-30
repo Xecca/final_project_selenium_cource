@@ -22,7 +22,8 @@ class ProductPage(BasePage):
 
     def should_be_compare_name_product(self):
         allert_inner = self.browser.find_element(*ProductPageLocators.ALLERT_INNER_PRODUCT)
-        assert allert_inner.text == "The shellcoder's handbook был добавлен в вашу корзину.", f"\nОР: Product 'The shellcoder's handbook' is added in basket.\n ФР: Product {allert_inner.text} is added in basket."
+        product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME)
+        assert allert_inner.text == f"{product_name.text} был добавлен в вашу корзину.", f"\nОР: Product 'The shellcoder's handbook' is added in basket.\n ФР: Product {allert_inner.text} is added in basket."
         print(allert_inner.text)
 
     def should_be_compare_cost_product_in_basket(self):
