@@ -1,5 +1,7 @@
 from .base_page import BasePage
 from .locators import ProductPageLocators
+from .locators import BasketPageLocators
+from .locators import MainPageLocators
 import time
 
 class ProductPage(BasePage):
@@ -46,3 +48,9 @@ class ProductPage(BasePage):
         add_product.click()
         time.sleep(1)
         assert self.is_disappeared(*ProductPageLocators.ALLERT_INNER), "Succes message is not dissapeared after adding product in basket"
+
+    def should_be_cant_see_product_in_basket_opened_from_main_page(self):
+        open_basket = self.browser.find_element(*MainPageLocators.BASKET_LINK)
+        open_basket.click()
+        time.sleep(1)
+        assert self.is_element_present(*BasketPageLocators.ALLERT_INNER_BASKET), "Basket is not empty!"
