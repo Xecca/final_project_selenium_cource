@@ -1,4 +1,5 @@
 from .base_page import BasePage
+from selenium.common.exceptions import NoAlertPresentException
 from .locators import ProductPageLocators
 from .locators import BasketPageLocators
 from .locators import MainPageLocators

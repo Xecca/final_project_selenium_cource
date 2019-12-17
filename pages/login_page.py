@@ -1,5 +1,7 @@
 from .base_page import BasePage
 from .locators import LoginPageLocators
+from selenium import webdriver as WebDriver
+
 
 class LoginPage(BasePage):
     def should_be_login_page(self):
@@ -24,3 +26,27 @@ class LoginPage(BasePage):
         # реализуйте проверку, что есть форма регистрации на странице
         assert self.is_element_present(*LoginPageLocators.REGISTER_FORM), "Registration Form is not presented"
         print("\nchecked exist registration form!")
+
+    def register_new_user(email, password):
+        link = "http://selenium1py.pythonanywhere.com/"
+        browser = WebDriver.Chrome()
+        browser.get(link)
+        register_link = browser.find_element(*LoginPageLocators.LOGIN_URL)
+        register_link.click()
+        input_email = browser.find_element(*LoginPageLocators.INPUT_EMAIL)
+        input_email.send_keys(password)
+        input_password = browser.find_element(*LoginPageLocators.INPUT_PASSWORD)
+        input_password.send_keys(password)
+        repeat_password = browser.find_element(*LoginPageLocators.REPEAT_PASSWORD)
+        repeat_password.send_keys(password)
+        register_button = browser.find_element(*LoginPageLocators.REGISTER_BUTTON)
+        register_button.click()
+        # Проверяем регистрацию пользователя
+        register_success = browser.find_element(*LoginPageLocators.REGISTER_SUCCESS)
+        print(register_success.text)
+        time.sleep(2)
+        BasePage.should_be_authorized_user
+
+
+
+        

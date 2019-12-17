@@ -10,15 +10,15 @@ import time
 
 class BasePage():
     def __init__(self, browser, url, timeout = 10): # , timeout = 10
-        self.browser = browser
+        self.browser = webdriver.Chrome()
         self.url = url
-        # self.browser.implicitly_wait(timeout)
+        self.browser.implicitly_wait(timeout)
 
     def open(self):
         self.browser.get(self.url)
 
     def go_to_login_page(self):
-        link = self.browser.find_element(*BasePageLocators.LOGIN_LINK_INVALID)
+        link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         link.click()
 
     def should_be_login_link(self):
@@ -32,16 +32,10 @@ class BasePage():
         return True
 
     def solve_quiz_and_get_code(self):
-        strat_time = time.time()
         alert = self.browser.switch_to.alert
         x = alert.text.split(" ")[2]
-        print(f"x = {x}")
-        answer = math.log(abs((12 * math.sin(float(x)))))
-        # print("Test run time: %f seconds.\n" % (time.time() - start_time))
-        print(f"answer = '{answer}'")
-        # self.browser.switch_to.alert
-        # alert = self.browser.switch_to.alert
-        alert.send_keys(str(answer))
+        answer = str(math.log(abs((12 * math.sin(float(x))))))
+        alert.send_keys(answer)
         alert.accept()
         try:
             alert = self.browser.switch_to.alert
@@ -50,6 +44,7 @@ class BasePage():
             alert.accept()
         except NoAlertPresentException:
             print("No second alert presented")
+
 
     def is_not_element_present(self, how, what, timeout = 4):
         try:
@@ -72,3 +67,5 @@ class BasePage():
         print("\nElement is NOT present!")
         return True
 
+    def should_be_authorized_user(self):
+        assert self.is_element_present(*BasePageLocators.USER_ICON), "User icon is not presented, probably unauthorised user"

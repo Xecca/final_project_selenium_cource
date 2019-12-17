@@ -927,3 +927,244 @@ event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
 webdriverClickElement@chrome://marionette/content/interaction.js:192:11
 JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer9, line 718: ReferenceError: oscar is not defined
 1575196546555	Marionette	INFO	Stopped listening on port 59886
+1576469417758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofileVbL0fL"
+1576469418777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469418777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469418777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469418777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469421543	Marionette	INFO	Listening on port 53302
+1576469421587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=newYear2019, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/accounts/login/, line 624: ReferenceError: oscar is not defined
+1576469424464	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofilevBFbIR"
+1576469425000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469425001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469425001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469425001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469427057	Marionette	INFO	Listening on port 53403
+1576469427151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=newYear2019, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/basket/, line 374: ReferenceError: oscar is not defined
+1576469431144	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofile1JdGPm"
+1576469431694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469431695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469431695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469431695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469433969	Marionette	INFO	Listening on port 53492
+1576469434025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer0, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer0, line 718: ReferenceError: oscar is not defined
+1576469437204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer0:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469437959	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofileITYCG4"
+1576469438606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469438607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469438607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469438607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469441555	Marionette	INFO	Listening on port 53581
+1576469441587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer1, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer1, line 718: ReferenceError: oscar is not defined
+1576469444674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer1:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469445416	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofile2DB3Bo"
+1576469445956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469445956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469445956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469445956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469448680	Marionette	INFO	Listening on port 53675
+1576469448732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer2, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer2, line 718: ReferenceError: oscar is not defined
+1576469451793	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer2:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469452458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofile3lfpY4"
+1576469452992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469452992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469452993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469452993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469455878	Marionette	INFO	Listening on port 53767
+1576469455943	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer3, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer3, line 718: ReferenceError: oscar is not defined
+1576469459197	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer3:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469459890	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofileOcBl2B"
+1576469460601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469460602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469460602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469460602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469462939	Marionette	INFO	Listening on port 53861
+1576469463040	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer4, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer4, line 718: ReferenceError: oscar is not defined
+1576469466247	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer4:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469466924	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofilekmOH8u"
+1576469467648	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469467648	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469467649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469467649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469470171	Marionette	INFO	Listening on port 53950
+1576469470247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer5, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer5, line 718: ReferenceError: oscar is not defined
+1576469473439	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer5:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469474116	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofile0mEw8S"
+1576469474757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469474758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469474758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469474758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469477064	Marionette	INFO	Listening on port 54046
+1576469477189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer6, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer6, line 718: ReferenceError: oscar is not defined
+1576469480483	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer6:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469481166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofilep7vlUH"
+1576469481816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469481816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469481817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469481817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469484401	Marionette	INFO	Listening on port 54136
+1576469484475	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer7, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer7, line 718: ReferenceError: oscar is not defined
+1576469488162	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofilemDSZzz"
+1576469488882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469488882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469488882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469488882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469491887	Marionette	INFO	Listening on port 54228
+1576469491918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer8, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer8, line 718: ReferenceError: oscar is not defined
+1576469495203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer8:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576469495969	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofile23UQ77"
+1576469496786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469496786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469496786	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469496787	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469499708	Marionette	INFO	Listening on port 54327
+1576469499801	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer9, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer9, line 718: ReferenceError: oscar is not defined
+1576469503056	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alertCheck@resource://gre/modules/Prompter.jsm:753:10
+checkTask@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:18:10
+handleSubmit423@http://selenium1py.pythonanywhere.com/static/oscar/js/oscar/hack.js:31:12
+onclick@http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/?promo=offer9:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+[Parent 21721, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+1576469540862	Marionette	INFO	Stopped listening on port 53302
+1576469544713	Marionette	INFO	Stopped listening on port 53403
+[Parent 21794, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+1576469650523	Marionette	INFO	Stopped listening on port 54327
+1576469658609	Marionette	INFO	Stopped listening on port 53492
+1576469659956	Marionette	INFO	Stopped listening on port 53581
+1576469661207	Marionette	INFO	Stopped listening on port 53675
+1576469674208	Marionette	INFO	Stopped listening on port 53767
+1576469675356	Marionette	INFO	Stopped listening on port 53861
+1576469676415	Marionette	INFO	Stopped listening on port 53950
+[Parent 21773, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+1576469677490	Marionette	INFO	Stopped listening on port 54046
+1576469678571	Marionette	INFO	Stopped listening on port 54136
+1576469679555	Marionette	INFO	Stopped listening on port 54228
+1576469808752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofiledir7LA"
+1576469809444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469809444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469809445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469809445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469811426	Marionette	INFO	Listening on port 55962
+1576469811453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=midsummer, line 614: ReferenceError: oscar is not defined
+1576469814214	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofileCubdOm"
+1576469814722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469814722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469814722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469814722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469816719	Marionette	INFO	Listening on port 56040
+1576469816820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=midsummer, line 614: ReferenceError: oscar is not defined
+1576469819132	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5m/cg7ctx9x1tz91rz6578gltcr0000gp/T/rust_mozprofileYeHG2H"
+1576469819651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576469819651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576469819651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576469819651	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576469821584	Marionette	INFO	Listening on port 56117
+1576469821610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/basket/, line 374: ReferenceError: oscar is not defined
+1576469833544	Marionette	INFO	Stopped listening on port 55962
+1576469835809	Marionette	INFO	Stopped listening on port 56040
+1576469839363	Marionette	INFO	Stopped listening on port 56117

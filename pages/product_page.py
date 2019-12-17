@@ -2,6 +2,7 @@ from .base_page import BasePage
 from .locators import ProductPageLocators
 from .locators import BasketPageLocators
 from .locators import MainPageLocators
+from selenium.common.exceptions import NoAlertPresentException
 import time
 
 class ProductPage(BasePage):
@@ -20,8 +21,8 @@ class ProductPage(BasePage):
     def should_be_add_product_in_basket(self):
         add_product = self.browser.find_element(*ProductPageLocators.BUTTON_BASKET)
         add_product.click()
-        time.sleep(1)
-        self.solve_quiz_and_get_code()
+        # time.sleep(1)
+        # self.solve_quiz_and_get_code()
 
     def should_be_compare_name_product(self):
         allert_inner = self.browser.find_element(*ProductPageLocators.ALLERT_INNER_PRODUCT)
@@ -46,11 +47,11 @@ class ProductPage(BasePage):
     def should_be_message_disappeared_after_adding_product_to_basket(self):
         add_product = self.browser.find_element(*ProductPageLocators.BUTTON_BASKET)
         add_product.click()
-        time.sleep(1)
+        # time.sleep(1)
         assert self.is_disappeared(*ProductPageLocators.ALLERT_INNER), "Succes message is not dissapeared after adding product in basket"
 
     def should_be_cant_see_product_in_basket_opened_from_main_page(self):
         open_basket = self.browser.find_element(*MainPageLocators.BASKET_LINK)
         open_basket.click()
-        time.sleep(1)
+        # time.sleep(1)
         assert self.is_element_present(*BasketPageLocators.ALLERT_INNER_BASKET), "Basket is not empty!"
